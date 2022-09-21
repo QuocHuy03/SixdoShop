@@ -1,0 +1,28 @@
+.list::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 8px;
+  display: block;
+}
+
+.list::-webkit-scrollbar-track {
+  background: rgba(227, 221, 187, 0.4);
+  border-radius: 8px;
+}
+
+.list::-webkit-scrollbar-thumb {
+  background: #E3DDBB;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.item_map {
+  border-bottom: 1px solid #E3DDBB;
+  padding: 25px 0;
+}
+
+.list {
+  height: 615px;
+  overflow: auto;
+  padding-right: 30px;
+  margin-top: 10px;
+}

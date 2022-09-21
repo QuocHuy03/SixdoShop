@@ -1,0 +1,9 @@
+.title {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.title:hover {
+  color: #212121;
+  font-weight: bold;
+}

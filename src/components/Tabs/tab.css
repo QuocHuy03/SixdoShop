@@ -1,0 +1,72 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.bloc-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.tabs {
+  padding: 15px;
+  text-align: center;
+  cursor: pointer;
+  box-sizing: content-box;
+  position: relative;
+  outline: none;
+  font-weight: bold;
+}
+
+.active-tabs {
+  background: #212121;
+  padding: 15px 35px;
+  border-radius: 25px;
+  color: white;
+  font-weight: bold;
+}
+
+button {
+  border: none;
+  background: transparent;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.content-tabs {
+  flex-grow: 1;
+}
+
+.content {
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.active-content {
+  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 99%;
+  margin: 0 auto;
+  justify-content: center;
+  gap: 30px;
+}
+
+.loadmore {
+  display: inline-block;
+  max-width: 220px;
+  width: 100%;
+  height: 50px;
+  color: #212121;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  border: 2px solid #212121;
+  cursor: pointer;
+  transition: ease-in-out 400ms;
+  font-weight: bold;
+  margin: 0 auto;
+}
